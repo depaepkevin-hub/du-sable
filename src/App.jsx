@@ -30,8 +30,43 @@ function App() {
         </div>
       </section>
 
-      <section className="min-h-screen flex items-center justify-center">
-        <p>Behandeling</p>
+      <section className="min-h-screen flex items-center justify-center px-6">
+        <div className="max-w-xl space-y-8 text-center">
+
+          <div className="space-y-4">
+            <h2 className="text-2xl font-light">
+              De behandeling
+            </h2>
+
+            <p className="text-gray-400 leading-relaxed">
+              Dit is geen klassieke massage.
+            </p>
+
+            <p className="text-gray-400 leading-relaxed">
+              Myofasciale therapie is een trage, gerichte behandeling waarbij
+              we via zachte druk werken op spanningspatronen in het lichaam.
+            </p>
+          </div>
+
+          <div className="space-y-2 text-gray-400 text-sm">
+            <p>Geen vloeiende strijkingen over spieren</p>
+            <p>Geen focus op ontspanning als doel op zich</p>
+            <p>Geen snelle technieken</p>
+          </div>
+
+          <div className="space-y-2 text-gray-400 text-sm">
+            <p>Zachte, aanhoudende druk</p>
+            <p>Gericht op het bindweefsel (fascia)</p>
+            <p>Niet forceren, maar volgen</p>
+          </div>
+
+          <div className="space-y-2 text-gray-400 text-sm">
+            <p>Het lichaam werkt als één geheel</p>
+            <p>Spanning is zelden lokaal</p>
+            <p>Werken op één plaats kan effect hebben op meerdere zones</p>
+          </div>
+
+        </div>
       </section>
 
       <section className="min-h-screen flex items-center justify-center">
