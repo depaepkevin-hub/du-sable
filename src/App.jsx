@@ -103,12 +103,42 @@ function App() {
         </div>
       </section>
 
-      <section className="min-h-screen flex items-center justify-center">
-        <p>Coaching</p>
+      <section className="min-h-screen flex items-center justify-center px-6">
+        <div className="max-w-xl space-y-8 text-center">
+
+          <h2 className="text-2xl font-light">
+            Veelgestelde vragen
+          </h2>
+
+          <div className="space-y-6 text-left text-gray-400">
+
+            <div className="space-y-2">
+              <p className="text-white">Is dit een ontspanningsmassage?</p>
+              <p>Nee. De focus ligt niet op ontspanning als doel op zich, maar op het werken met spanningspatronen in het lichaam.</p>
+            </div>
+
+            <div className="space-y-2">
+              <p className="text-white">Doet de behandeling pijn?</p>
+              <p>De behandeling kan intens aanvoelen, maar wordt niet geforceerd. We volgen wat het lichaam aangeeft.</p>
+            </div>
+
+            <div className="space-y-2">
+              <p className="text-white">Hoeveel sessies heb ik nodig?</p>
+              <p>Dat is voor iedereen anders. We werken zonder vaste trajecten of garanties.</p>
+            </div>
+
+            <div className="space-y-2">
+              <p className="text-white">Is dit geschikt bij stress of spanning?</p>
+              <p>Ja. De behandeling kan ondersteunen bij spanning in het lichaam, ongeacht de oorzaak.</p>
+            </div>
+
+          </div>
+
+        </div>
       </section>
 
       <section className="min-h-screen flex items-center justify-center">
-        <p>FAQ</p>
+        <p>Coaching</p>
       </section>
 
       <section className="min-h-screen flex items-center justify-center">
