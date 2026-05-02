@@ -137,12 +137,26 @@ function App() {
         </div>
       </section>
 
-      <section className="min-h-screen flex items-center justify-center">
-        <p>Coaching</p>
-      </section>
+      <section className="min-h-screen flex items-center justify-center px-6">
+        <div className="text-center max-w-xl space-y-6">
 
-      <section className="min-h-screen flex items-center justify-center">
-        <p>Afspraak</p>
+          <h2 className="text-2xl font-light">
+            Afspraak maken
+          </h2>
+
+          <p className="text-gray-400 leading-relaxed">
+            Wil je ervaren wat deze manier van werken voor jouw lichaam kan betekenen?
+          </p>
+
+          <p className="text-gray-400 leading-relaxed">
+            Je kan eenvoudig een afspraak maken via de online agenda.
+          </p>
+
+          <button className="mt-4 px-6 py-3 border border-white text-white hover:bg-white hover:text-black transition">
+            Maak een afspraak
+          </button>
+
+        </div>
       </section>
 
     </main>
