@@ -152,9 +152,14 @@ function App() {
             Je kan eenvoudig een afspraak maken via de online agenda.
           </p>
 
-          <button className="mt-4 px-6 py-3 border border-white text-white hover:bg-white hover:text-black transition">
+          <a
+            href="https://tidycal.com/dusable"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block mt-4 px-6 py-3 border border-white text-white hover:bg-white hover:text-black transition"
+          >
             Maak een afspraak
-          </button>
+          </a>
 
         </div>
       </section>
