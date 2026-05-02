@@ -70,31 +70,33 @@ function App() {
       </section>
 
       <section className="min-h-screen flex items-center justify-center px-6">
-        <div className="max-w-xl space-y-8 text-center">
+        <div className="max-w-xl space-y-10 text-center">
 
           <h2 className="text-2xl font-light">
             Werkwijze
           </h2>
 
-          <div className="space-y-6 text-gray-400">
+          <div className="space-y-8 text-gray-400">
 
-            <p>
-              We starten vanuit wat jij ervaart in je lichaam.
-            </p>
+            <div className="space-y-2">
+              <p className="text-white text-sm tracking-wide">01</p>
+              <p>We vertrekken vanuit wat jij ervaart in je lichaam.</p>
+            </div>
 
-            <p>
-              Tijdens de behandeling werken we traag en met aandacht,
-              zonder iets te forceren.
-            </p>
+            <div className="space-y-2">
+              <p className="text-white text-sm tracking-wide">02</p>
+              <p>De behandeling verloopt traag en met gerichte aandacht.</p>
+            </div>
 
-            <p>
-              De focus ligt op wat voelbaar wordt onder de oppervlakte,
-              en hoe je lichaam daarop reageert.
-            </p>
+            <div className="space-y-2">
+              <p className="text-white text-sm tracking-wide">03</p>
+              <p>We volgen wat voelbaar wordt, zonder iets te forceren.</p>
+            </div>
 
-            <p>
-              De behandeling volgt het lichaam, niet omgekeerd.
-            </p>
+            <div className="space-y-2">
+              <p className="text-white text-sm tracking-wide">04</p>
+              <p>Het lichaam krijgt ruimte om zelf te reageren en los te laten.</p>
+            </div>
 
           </div>
 
