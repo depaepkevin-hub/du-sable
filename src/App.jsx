@@ -14,8 +14,20 @@ function App() {
         </div>
       </section>
 
-      <section className="min-h-screen flex items-center justify-center">
-        <p>Concept</p>
+      <section className="min-h-screen flex items-center justify-center px-6">
+        <div className="max-w-xl space-y-6 text-center">
+          <h2 className="text-2xl font-light">
+            Spanning vertelt iets over je lichaam
+          </h2>
+          <p className="text-gray-400 leading-relaxed">
+            Spanning ontstaat niet altijd op één plaats. Vaak bouwt ze zich op
+            in patronen die invloed hebben op je houding, ademhaling en bewegingsvrijheid.
+          </p>
+          <p className="text-gray-400 leading-relaxed">
+            Bij Du Sable kijken we daarom niet alleen naar de klacht zelf,
+            maar naar hoe je lichaam spanning vasthoudt en compenseert.
+          </p>
+        </div>
       </section>
 
       <section className="min-h-screen flex items-center justify-center">
