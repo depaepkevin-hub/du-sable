@@ -69,12 +69,40 @@ function App() {
         </div>
       </section>
 
-      <section className="min-h-screen flex items-center justify-center">
-        <p>Coaching</p>
+      <section className="min-h-screen flex items-center justify-center px-6">
+        <div className="max-w-xl space-y-8 text-center">
+
+          <h2 className="text-2xl font-light">
+            Werkwijze
+          </h2>
+
+          <div className="space-y-6 text-gray-400">
+
+            <p>
+              We starten vanuit wat jij ervaart in je lichaam.
+            </p>
+
+            <p>
+              Tijdens de behandeling werken we traag en met aandacht,
+              zonder iets te forceren.
+            </p>
+
+            <p>
+              De focus ligt op wat voelbaar wordt onder de oppervlakte,
+              en hoe je lichaam daarop reageert.
+            </p>
+
+            <p>
+              De behandeling volgt het lichaam, niet omgekeerd.
+            </p>
+
+          </div>
+
+        </div>
       </section>
 
       <section className="min-h-screen flex items-center justify-center">
-        <p>Werkwijze</p>
+        <p>Coaching</p>
       </section>
 
       <section className="min-h-screen flex items-center justify-center">
