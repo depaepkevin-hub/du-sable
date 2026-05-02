@@ -1,10 +1,36 @@
 function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-black text-white">
-      <h1 className="text-4xl font-light tracking-wide">
-        Du Sable
-      </h1>
-    </div>
+    <main className="bg-black text-white">
+
+      <section className="min-h-screen flex items-center justify-center">
+        <h1 className="text-4xl font-light">Du Sable</h1>
+      </section>
+
+      <section className="min-h-screen flex items-center justify-center">
+        <p>Concept</p>
+      </section>
+
+      <section className="min-h-screen flex items-center justify-center">
+        <p>Behandeling</p>
+      </section>
+
+      <section className="min-h-screen flex items-center justify-center">
+        <p>Coaching</p>
+      </section>
+
+      <section className="min-h-screen flex items-center justify-center">
+        <p>Werkwijze</p>
+      </section>
+
+      <section className="min-h-screen flex items-center justify-center">
+        <p>FAQ</p>
+      </section>
+
+      <section className="min-h-screen flex items-center justify-center">
+        <p>Afspraak</p>
+      </section>
+
+    </main>
   )
 }
 
